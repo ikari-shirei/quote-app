@@ -10,7 +10,7 @@ export const fetchQuotes = () => {
     dispatch(fetchQuotesRequest)
     axios
       .get(
-        `https://raw.githubusercontent.com/ikari-shirei/small-projects/main/react/random-quote-app/public/quotes.json`
+        `https://github.com/ikari-shirei/quote-app/blob/main/public/quotes.json`
       )
       .then((response) => dispatch(fetchQuotesSuccess(response.data.quotes)))
       .catch((error) => dispatch(fetchQuotesFailure(error.message)))
