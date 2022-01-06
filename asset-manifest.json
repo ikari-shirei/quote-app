@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b386c7b4.css",
+    "main.js": "/static/js/main.8b200d27.js",
+    "static/media/retweet-green.svg": "/static/media/retweet-green.d319057491705074978a90e8aa167e87.svg",
+    "static/media/quote.svg": "/static/media/quote.f62dae331c71b8411570d1a7d47d0558.svg",
+    "index.html": "/index.html",
+    "static/media/forward.svg": "/static/media/forward.ea206338bab19bcdf806bc08017bc450.svg",
+    "static/media/back.svg": "/static/media/back.58acb58c0d6bedac27e8921bfdcfc28a.svg",
+    "main.b386c7b4.css.map": "/static/css/main.b386c7b4.css.map",
+    "main.8b200d27.js.map": "/static/js/main.8b200d27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b386c7b4.css",
+    "static/js/main.8b200d27.js"
+  ]
+}
