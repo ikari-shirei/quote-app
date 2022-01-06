@@ -1,0 +1,31 @@
+@import './index.scss';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 325px;
+
+  .header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    .header {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: 'Roboto Slap', serif !important;
+      justify-self: right;
+      margin: 32px 24px;
+      margin-right: 0;
+    }
+  }
+
+  #tweet-quote {
+    margin: 24px;
+    margin-bottom: 64px;
+  }
+}

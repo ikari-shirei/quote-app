@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  margin-top: 68px;
+
+  .quoteIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 125px;
+    opacity: 0.1;
+    z-index: -5;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  #text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    margin: 32px 32px 16px 32px;
+    font-weight: normal;
+  }
+  #author {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    align-self: center;
+  }
+}

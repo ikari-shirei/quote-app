@@ -1,0 +1,45 @@
+.quote-controller {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #1ad087;
+  .quote-controller-inner {
+    display: flex;
+    width: 325px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    .control-elements {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60px;
+      .back-button,
+      .forward-button {
+        cursor: pointer;
+      }
+      .back-button-disabled,
+      .forward-button-disabled {
+        opacity: 0.2;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+    }
+    #new-quote {
+      background-color: transparent;
+      border: 1px solid black;
+      padding: 8px;
+      font-family: 'Roboto', serif;
+      font-weight: bold;
+      transition: 0.2s;
+      cursor: pointer;
+      &:hover {
+        background-color: black;
+        color: #1ad087;
+        transition: 0.2s;
+      }
+    }
+  }
+}
